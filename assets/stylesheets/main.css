@@ -193,8 +193,9 @@ cite, em {
 
 .divider {
   clear: both;
-  color: rgba(217, 136, 37, 1);
-  margin:22px 22px 22px 22px;
+  margin: 0px 105px 60px 111px;
+  border-top: 3px solid rgba(217, 136, 37, 1);
+
 }
 
 /*
@@ -209,6 +210,7 @@ cite, em {
   display: inline-block;
   float:left;
   width: 20%;
+  padding-top: 29px;
 
 }
 
@@ -218,4 +220,6 @@ cite, em {
   float: right;
   padding-top: 12px;
   border-top: 10px solid rgba(217, 136, 37, 1);
+  padding-top: 29px;
+  padding-bottom: 40px;
 }
