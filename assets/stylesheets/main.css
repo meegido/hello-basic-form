@@ -158,10 +158,9 @@ h1, h3, h4, h5, p {
 }
 
 h1 {
-  font-size: 48px;
   line-height: 44px;
   color: rgba(197, 54, 0, 1);
-  font: 400 16px/22px "Lora", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 34px/22px "Lora", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h2 {
@@ -190,4 +189,33 @@ strong {
 
 cite, em {
   font-style: italic;
+}
+
+.divider {
+  clear: both;
+  color: rgba(217, 136, 37, 1);
+  margin:22px 22px 22px 22px;
+}
+
+/*
+  ========================================
+  Primary header
+  ========================================
+*/
+
+.logo {
+  font-size: 58px;
+  line-height: 58px;
+  display: inline-block;
+  float:left;
+  width: 20%;
+
+}
+
+.entry-header {
+  display: inline-block;
+  width: 80%;
+  float: right;
+  padding-top: 12px;
+  border-top: 10px solid rgba(217, 136, 37, 1);
 }
