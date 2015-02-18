@@ -193,7 +193,7 @@ cite, em {
 
 .divider {
   clear: both;
-  margin: 0px 105px 60px 111px;
+  margin: 0em 4em 2em 4em;
   border-top: 3px solid rgba(217, 136, 37, 1);
 
 }
@@ -205,12 +205,12 @@ cite, em {
 */
 
 .logo {
-  font-size: 58px;
-  line-height: 58px;
+  font-size: 3.7em;
+  line-height: 1em;
   display: inline-block;
   float:left;
   width: 20%;
-  padding-top: 29px;
+  padding-top: 0.4em;
 
 }
 
@@ -219,8 +219,8 @@ cite, em {
   width: 80%;
   float: right;
   border-top: 10px solid rgba(217, 136, 37, 1);
-  padding-top: 29px;
-  padding-bottom: 40px;
+  padding-top: 1.8em;
+  padding-bottom: 2em;
 }
 
 /*
@@ -230,7 +230,7 @@ cite, em {
 */
 
 .section-title {
-  line-height: 38px;
+  line-height: 1.35em;
   display: inline-block;
   float: left;
   width: 15%;
@@ -241,7 +241,11 @@ cite, em {
   display: inline-block;
   float: right;
   width: 85%;
-  padding-left: 15px;
-  padding-top: 11px;
-  font-size: 22px;
+  padding-left: 0.3em;
+  padding-top: 0.7em;
+  font-size: 1.3em;
+}
+
+.label-text {
+  border-left: 2px solid rgba(217, 136, 37, 1);
 }
