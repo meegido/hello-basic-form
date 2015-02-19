@@ -56,6 +56,7 @@ body {
   background: rgba(138, 157, 165, 1);
   color: rgba(250, 240, 205, 0.67);
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0 50px 0 50px;
 }
 
 /*
@@ -206,12 +207,12 @@ cite, em {
   display: inline-block;
   float:left;
   width: 20%;
-  padding-top: 0.4em;
+  padding-top: 0.4em; 
 
 }
 
 .entry-header {
-  display: inline-block;
+  display: inline- block;
   width: 80%;
   float: right;
   border-top: 10px solid rgba(217, 136, 37, 1);
@@ -230,6 +231,7 @@ cite, em {
   display: inline-block;
   float: left;
   width: 15%;
+  padding-left: .5em;
 }
 
 .section-subtitle {
@@ -237,9 +239,8 @@ cite, em {
   display: inline-block;
   float: right;
   width: 85%;
-  padding-left: 0.3em;
-  padding-top: 0.7em;
-  font-size: 1.3em;
+  padding-top: 0.6em;
+  font-size: 1.5em;
 }
 
 .label-text {
@@ -285,4 +286,15 @@ cite, em {
   outline: none;
   border: 1px solid rgba(250, 240, 205, 1);
   background-color: rgba(217, 136, 37, 1);
+}
+
+/*
+  ========================================
+  Second section: inputs;
+  ========================================
+*/
+
+textarea {
+  width: 47em;
+  height: 20em;
 }
