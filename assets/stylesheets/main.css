@@ -207,7 +207,7 @@
   }
 
   .inter-spaces {
-    margin-bottom: 2em;
+    margin-bottom: 1.3em;
   }
 
 /*
@@ -320,6 +320,10 @@
   Second section: inputs;
   ========================================
   */
+
+  .input-spaces {
+    margin-bottom: .5em;
+  }
 
   .input label{
     margin-bottom: 1em;
