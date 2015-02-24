@@ -53,8 +53,8 @@
   ========================================
   */
   body {
-    background: rgba(138, 157, 165, 1);
-    color: rgba(250, 240, 205, 0.67);
+    background: rgba(250, 240, 205, 1);
+    color: #7f8c8d;
     font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding: 0 50px 0 50px;
   }
@@ -125,17 +125,18 @@
 
   .row,
   .row-alt {
-    background: rgba(138, 157, 165, 1);
+    background: rgba(250, 240, 205, 1);
+
   }
 
   .row {
     min-width: 1050px;
     padding: 33px 0 22px 0;
-    background: rgba(138, 157, 165, 1);
+    background: rgba(250, 240, 205, 1);
   }
 
   .row-alt {
-    background: rgba(138, 157, 165, 1);
+    background: rgba(250, 240, 205, 1);
     background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
     background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
     background: linear-gradient(to right, #a1d3b0, #f6f1d3);
@@ -155,7 +156,7 @@
 
   h1 {
     line-height: 44px;
-    color: rgba(197, 54, 0, 1);
+    color: rgba(138, 157, 180, 1);
     font: 400 34px/22px "Lora", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 
@@ -196,7 +197,7 @@
   }
 
   .separator {
-    border-left: 3px solid rgba(217, 136, 37, 1);
+    border-left: 2px solid rgba(197, 54, 0, 1);
   }
 
 /*
@@ -211,7 +212,8 @@
     display: inline-block;
     float:left;
     width: 20%;
-    padding-top: 0.4em; 
+    padding-top: 0.4em;
+    color: rgba(197, 54, 0, 1);
 
   }
 
@@ -241,10 +243,11 @@
     width: 15%;
     padding-left: .5em;
     margin: 0em;
+    color: rgba(217, 136, 37, 1);
   }
 
   .section-subtitle {
-    color: rgba(197, 54, 0, 1);
+    color: rgba(217, 136, 37, 1);
     float: right;
     width: 85%;
     padding-top: 0.6em;
@@ -258,8 +261,7 @@
   */
 
   .label-text {
-    border-left: 2px solid rgba(217, 136, 37, 1);
-    color: rgba(197, 54, 0, 1);
+    border-left: 2px solid rgba(197, 54, 0, 1);
     height: 7em;
   }
 
@@ -338,11 +340,11 @@
 
 /*
 ========================================
-Second section: inputs;
+Footer
 ========================================
 */
 
 .footer {
-  background-color: rgba(217, 136, 37, 1);
+  
   width: 100%;
 }
