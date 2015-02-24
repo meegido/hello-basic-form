@@ -1,300 +1,329 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
-*/
+   */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+   html, body, div, span, applet, object, iframe,
+   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+   a, abbr, acronym, address, big, cite, code,
+   del, dfn, em, img, ins, kbd, q, s, samp,
+   small, strike, strong, sub, sup, tt, var,
+   b, u, i, center,
+   dl, dt, dd, ol, ul, li,
+   fieldset, form, legend,
+   table, caption, tbody, tfoot, thead, tr, th, td,
+   article, aside, canvas, details, embed, textarea,
+   figure, figcaption, footer, header, hgroup, 
+   menu, nav, output, ruby, section, summary,
+   time, mark, audio, video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+   }
+   /* HTML5 display-role reset for older browsers */
+   article, aside, details, figcaption, figure, 
+   footer, header, hgroup, menu, nav, section {
+     display: block;
+   }
+   body {
+     line-height: 1;
+   }
+   ol, ul {
+     list-style: none;
+   }
+   blockquote, q {
+     quotes: none;
+   }
+   blockquote:before, blockquote:after,
+   q:before, q:after {
+     content: '';
+     content: none;
+   }
+   table {
+     border-collapse: collapse;
+     border-spacing: 0;
+   }
 
 /*
   ========================================
   Custom styles
   ========================================
-*/
-body {
-  background: rgba(138, 157, 165, 1);
-  color: rgba(250, 240, 205, 0.67);
-  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  padding: 0 50px 0 50px;
-}
+  */
+  body {
+    background: rgba(138, 157, 165, 1);
+    color: rgba(250, 240, 205, 0.67);
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0 50px 0 50px;
+  }
 
 /*
   ========================================
   Grid
   ========================================
-*/
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
+  */
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
 
-.container,
-.grid {
-  margin: 0 auto;
-  width: 1050px;
-}
+  .container,
+  .grid {
+    margin: 0 auto;
+    width: 1050px;
+  }
 
-.col-1-3 {
-  width: 33.33%;
-}
+  .col-1-3 {
+    width: 33.33%;
+  }
 
-.col-2-3 {
-  width: 66.66%;
-}
+  .col-2-3 {
+    width: 66.66%;
+  }
 
-.col-1-3,
-.col-2-3 {
-  display: inline-block;
-  vertical-align: top;
-}
+  .col-1-3,
+  .col-2-3 {
+    display: inline-block;
+    vertical-align: top;
+  }
 
-.grid,
-.col-1-3,
-.col-2-3 {
-  padding-left: 15px;
-  padding-right: 15px;
-}
+  .grid,
+  .col-1-3,
+  .col-2-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 
 /*
   ========================================
   Clearfix
   ========================================
-*/
-.group:before,
-.group:after {
-  content: "";
-  display: table;
-}
-.group:after {
-  clear: both;
-}
-.group {
-  clear: both;
-  *zoom: 1;
-}
+  */
+  .group:before,
+  .group:after {
+    content: "";
+    display: table;
+  }
+  .group:after {
+    clear: both;
+  }
+  .group {
+    clear: both;
+    *zoom: 1;
+  }
 
 /*
   ========================================
   Rows
   ========================================
-*/
+  */
 
-.row,
-.row-alt {
-  background: rgba(138, 157, 165, 1);
-}
+  .row,
+  .row-alt {
+    background: rgba(138, 157, 165, 1);
+  }
 
-.row {
-  min-width: 1050px;
-  padding: 33px 0 22px 0;
-  background: rgba(138, 157, 165, 1);
-}
+  .row {
+    min-width: 1050px;
+    padding: 33px 0 22px 0;
+    background: rgba(138, 157, 165, 1);
+  }
 
-.row-alt {
-  background: rgba(138, 157, 165, 1);
-  background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
-  background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
-  background: linear-gradient(to right, #a1d3b0, #f6f1d3);
-  padding: 44px 0 22px 0;
-}
+  .row-alt {
+    background: rgba(138, 157, 165, 1);
+    background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
+    background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
+    background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+    padding: 44px 0 22px 0;
+  }
 
 /*
   ========================================
   Typography
   ========================================
-*/
+  */
 
-h1, h3, h4, h5, p {
-  margin-bottom: 22px;
+  h1, h3, h4, h5, p {
+    margin-bottom: 22px;
 
-}
+  }
 
-h1 {
-  line-height: 44px;
-  color: rgba(197, 54, 0, 1);
-  font: 400 34px/22px "Lora", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+  h1 {
+    line-height: 44px;
+    color: rgba(197, 54, 0, 1);
+    font: 400 34px/22px "Lora", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
 
-h2 {
-  font-size: 24px;
-  line-height: 44px;
-}
+  h2 {
+    font-size: 24px;
+    line-height: 44px;
+  }
 
-h3 {
-  font-size: 21px;
-}
+  h3 {
+    font-size: 21px;
+  }
 
-h4 {
-  font-size: 18px;
-}
+  h4 {
+    font-size: 18px;
+  }
 
-h5 {
-  color: #a9b2b9;
-  font-size: 14px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
+  h5 {
+    color: #a9b2b9;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
 
-strong {
-  font-weight: 400;
-}
+  strong {
+    font-weight: 400;
+  }
 
-cite, em {
-  font-style: italic;
-}
+  cite, em {
+    font-style: italic;
+  }
 
-.divider {
-  clear: both;
-  margin-bottom: 2em;
-  border-top: 3px solid rgba(217, 136, 37, 1);
-  width: 100%;
+  .divider {
+    clear: both;
+    margin-bottom: 2em;
+    border-top: 3px solid rgba(217, 136, 37, 1);
+    width: 100%;
 
-}
+  }
+
+  .separator {
+    border-left: 3px solid rgba(217, 136, 37, 1);
+  }
 
 /*
   ========================================
   Primary header
   ========================================
-*/
+  */
 
-.logo {
-  font-size: 3.7em;
-  line-height: 1em;
-  display: inline-block;
-  float:left;
-  width: 20%;
-  padding-top: 0.4em; 
+  .logo {
+    font-size: 3.7em;
+    line-height: 1em;
+    display: inline-block;
+    float:left;
+    width: 20%;
+    padding-top: 0.4em; 
 
-}
+  }
 
-.entry-header {
-  display: inline- block;
-  width: 80%;
-  float: right;
-  border-top: 10px solid rgba(217, 136, 37, 1);
-  padding-top: 1.8em;
-  padding-bottom: 2em;
-}
+  .entry-header {
+    display: inline- block;
+    width: 80%;
+    float: right;
+    border-top: 10px solid rgba(217, 136, 37, 1);
+    padding-top: 1.8em;
+    padding-bottom: 2em;
+  }
 
 /*
   ========================================
   First section: labels;
   ========================================
-*/
+  */
 
-.section-title {
-  line-height: 1.35em;
-  display: inline-block;
-  float: left;
-  width: 15%;
-  padding-left: .5em;
-}
+  .section-title {
+    line-height: 1.35em;
+    display: inline-block;
+    float: left;
+    width: 15%;
+    padding-left: .5em;
+  }
 
-.section-subtitle {
-  color: rgba(197, 54, 0, 1);
-  display: inline-block;
-  float: right;
-  width: 85%;
-  padding-top: 0.6em;
-  font-size: 1.5em;
-}
+  .section-subtitle {
+    color: rgba(197, 54, 0, 1);
+    display: inline-block;
+    float: right;
+    width: 85%;
+    padding-top: 0.6em;
+    font-size: 1.5em;
+  }
 
-.label-text {
-  border-left: 2px solid rgba(217, 136, 37, 1);
-  color: rgba(197, 54, 0, 1);
-  height: 7em;
-}
+  .label-text {
+    border-left: 2px solid rgba(217, 136, 37, 1);
+    color: rgba(197, 54, 0, 1);
+    height: 7em;
+  }
 
-.email-set {
-  margin-bottom: 1.5em;
-}
+  .email-set {
+    margin-bottom: 1.5em;
+  }
 
 
-.email-set label {
-  margin-left: 3em;
-  margin-right: 1em;
-  font-size: 1.2em;
-  letter-spacing: 0.05em;
-}
+  .email-set label {
+    margin-left: 3em;
+    margin-right: 1em;
+    font-size: 1.2em;
+    letter-spacing: 0.05em;
+  }
 
-.email-set input {
-  width: 70%;
-  padding-left: 0.5em;
-  height: 30px;
-  font-size: 1em;
-  color: rgba(250, 240, 205, 1);
-}
+  .email-set input {
+    width: 70%;
+    padding-left: 0.5em;
+    height: 30px;
+    font-size: 1em;
+    color: rgba(250, 240, 205, 1);
+  }
 
-.user-set input {
-  margin-left: 8.7em;
-  height: 30px;
-  font-size: 1em;
-  width: 70%;
-  color: rgba(250, 240, 205, 1);
-}
+  .user-set input {
+    margin-left: 8.7em;
+    height: 30px;
+    font-size: 1em;
+    padding-left: 0.5em;
+    width: 70%;
+    color: rgba(250, 240, 205, 1);
+  }
 
-.user-set input[type=username]:focus,
-.email-set input[type=email]:focus {
-  -webkit-transition: all 0.30s ease-in-out;
-  -moz-transition: all 0.30s ease-in-out;
-  -ms-transition: all 0.30s ease-in-out;
-  -o-transition: all 0.30s ease-in-out;
-  outline: none;
-  border: 1px solid rgba(250, 240, 205, 1);
-  background-color: rgba(217, 136, 37, 1);
-}
+  .user-set input[type=username]:focus,
+  .email-set input[type=email]:focus {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    border: 1px solid rgba(250, 240, 205, 1);
+    background-color: rgba(217, 136, 37, 1);
+  }
 
 /*
   ========================================
   Second section: inputs;
   ========================================
-*/
+  */
+  .separator label {
+    display: block;
+    padding-bottom: 1em;
+  }
 
-textarea {
-  width: 47em;
-  height: 20em;
-}
+  textarea {
+      width: 20em;
+      height: 17em;
+      padding-left: 0.5em;
+    }
+
+  .separator textarea {
+    color: rgba(250, 240, 205, 1);
+  }
+
+  .separator textarea:focus {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    border: 1px solid rgba(250, 240, 205, 1);
+    background-color: rgba(217, 136, 37, 1);
+    color: rgba(250, 240, 205, 1);
+    font-size: 1em;
+    padding-left: 0.5em;
+  }
+
+ 
