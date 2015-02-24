@@ -335,3 +335,14 @@
     font-size: 1em;
     padding-left: 0.5em;
   }
+
+/*
+========================================
+Second section: inputs;
+========================================
+*/
+
+.footer {
+  background-color: rgba(217, 136, 37, 1);
+  width: 100%;
+}

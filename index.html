@@ -18,7 +18,7 @@
 
 				<h1 class="logo">BASIC<br>FORM</h1>
 
-				<p class="entry-header">The input form is an essential element of almost any website or application these days. Input is a core method of interaction, and in many cases it represents the hard conversion point between success and failure. Standing between the user’s goal and the organization’s goals is very often a form, because, despite the advances in human-computer interaction, forms remain the predominant form of interaction for users on the Web.</p>
+				<p class="entry-header">Los formularios son una de las formas de interacción hombre-ordenador y continúa siendo una forma predominante en la interacción de los usuarios con la web. Con este formulario básico quiero mostrar algunos de los elementos que ayudan a completar los objetivos de la web y el usuario. De momento HTML y CSS, la base para darle interactividad con JavaScript.</p>
 
 			</section>
 
@@ -151,7 +151,26 @@
 
 				--><section class="col-2-3">
 
-				<p>Placeholder y required, mensajes con instrucciones (hasta 50 caracteres).</p>
+				<fieldset>
+					<legend>Registro</legend>
+						<label>Email
+							<input type="email" name="email-address" placeholder="mail@placeholder.com" optional>
+						</label>
+					<label>Password
+							<input type="text" name="password" required>
+						</label>
+					<input type="submit" name="submit">
+				</fieldset>
+
+				<fieldset>
+					<legend>Datos de registro</legend>
+						<label>Fecha de nacimiento
+							<input type="date" name="date" optional>
+						</label>
+						<label>Teléfono
+							<input type="tel" name="tel" required>
+						</label>
+				</fieldset>
 
 			</section>
 
@@ -161,11 +180,11 @@
 	</div>
 </body>
 
-<footer>
+<footer class="footer">
 
 	<hr class="divider">
 
-	<section class="row">
+	<section class="row footer">
 		<div class="grid">
 
 			<section class="col-1-3">
@@ -174,13 +193,15 @@
 
 			--><section class="col-1-3">
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.3471171410333!2d-87.627505!3d41.8853914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2caff598f035%3A0xed6d5c288e9b5ad2!2s175+N+State+St%2C+Chicago%2C+IL+60601%2C+USA!5e0!3m2!1sen!2ses!4v1423652235165"></iframe>
-				</section><!--
+			</section><!--
 
 			--><section class="col-1-3">
-			<p>Puedes ver la web en githubpages.</p>
-		</section>
+				<p>Puedes ver la web en githubpages.</p>
+			</section>
 
-	</div>
-</section>
+		</div>
+	</section>
+
 </footer>
+
 </html>
