@@ -226,26 +226,36 @@
 
 /*
   ========================================
-  First section: labels;
+  Block-title
   ========================================
   */
 
+  .block-title {
+    display: inline;
+
+  }
+
   .section-title {
     line-height: 1.35em;
-    display: inline-block;
     float: left;
     width: 15%;
     padding-left: .5em;
+    margin: 0em;
   }
 
   .section-subtitle {
     color: rgba(197, 54, 0, 1);
-    display: inline-block;
     float: right;
     width: 85%;
     padding-top: 0.6em;
     font-size: 1.5em;
   }
+
+/*
+  ========================================
+  First section: labels;
+  ========================================
+  */
 
   .label-text {
     border-left: 2px solid rgba(217, 136, 37, 1);
@@ -325,5 +335,3 @@
     font-size: 1em;
     padding-left: 0.5em;
   }
-
- 
