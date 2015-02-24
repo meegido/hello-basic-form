@@ -188,6 +188,12 @@
     font-style: italic;
   }
 
+/*
+  ========================================
+  Helpers
+  ========================================
+  */
+
   .divider {
     clear: both;
     margin-bottom: 2em;
@@ -198,6 +204,10 @@
 
   .separator {
     border-left: 2px solid rgba(197, 54, 0, 1);
+  }
+
+  .inter-spaces {
+    margin-bottom: 2em;
   }
 
 /*
@@ -310,6 +320,11 @@
   Second section: inputs;
   ========================================
   */
+
+  .input label{
+    margin-bottom: 1em;
+    display: inline-block;
+  }
   .separator label {
     display: block;
     padding-bottom: 1em;
