@@ -203,7 +203,7 @@
 
   .divider-short {
     border-top: 10px solid rgba(217, 136, 37, 1);
-    width: 70%;
+    width: 43%;
     margin-right: 12.6em;
   }
 
@@ -226,18 +226,18 @@
     line-height: 1em;
     display: inline-block;
     float:left;
-    width: 22%;
+    width: 38%;
     padding-top: 0.356em;
-    padding-left: 2em;
+    padding-left: 3em;
     color: rgba(197, 54, 0, 1);
 
   }
 
   .entry-header {
-    width: 66%;
+    width: 62%;
     float: right;
     padding-top: 0.8em;
-    padding-right: 11em;
+    padding-right: 10em;
     font-size: 1.2em;
     line-height: 1.5em;
   }
