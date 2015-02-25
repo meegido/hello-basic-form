@@ -197,7 +197,7 @@
   .divider {
     clear: both;
     margin-bottom: 2em;
-    border-top: 3px solid rgba(217, 136, 37, 1);
+    border-top: 10px solid rgba(217, 136, 37, 1);
     width: 100%;
   }
 
