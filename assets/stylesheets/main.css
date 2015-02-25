@@ -292,7 +292,10 @@
     padding-left: 0.5em;
     height: 30px;
     font-size: 1em;
-    color: rgba(250, 240, 205, 1);
+    color: #7f8c8d;
+    border: none;
+    border-bottom: 2px solid rgba(138, 157, 165, 1);
+    background-color: rgba(250, 240, 205, 1);
   }
 
   .user-set input {
@@ -301,7 +304,10 @@
     font-size: 1em;
     padding-left: 0.5em;
     width: 70%;
-    color: rgba(250, 240, 205, 1);
+    color: #7f8c8d;
+    border: none;
+    border-bottom: 2px solid rgba(138, 157, 165, 1);
+    background-color: rgba(250, 240, 205, 1);
   }
 
   .user-set input[type=username]:focus,
@@ -311,8 +317,8 @@
     -ms-transition: all 0.30s ease-in-out;
     -o-transition: all 0.30s ease-in-out;
     outline: none;
-    border: 1px solid rgba(250, 240, 205, 1);
-    background-color: rgba(217, 136, 37, 1);
+    border: 1px solid rgba(138, 157, 165, 1);
+    
   }
 
 /*
