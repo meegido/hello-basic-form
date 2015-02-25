@@ -226,20 +226,20 @@
     line-height: 1em;
     display: inline-block;
     float:left;
-    width: 38%;
+    width: 30%;
     padding-top: 0.356em;
-    padding-left: 3em;
+    padding-left: 2.3em;
     color: rgba(197, 54, 0, 1);
 
   }
 
   .entry-header {
-    width: 62%;
+    width: 60%;
     float: right;
     padding-top: 0.8em;
     padding-right: 10em;
-    font-size: 1.2em;
-    line-height: 1.5em;
+    font-size: 1.1em;
+    line-height: 1.4em;
   }
 
 /*
