@@ -376,14 +376,16 @@ Third Section: help;
   }
 
   .register {
-    border: 1px solid rgba(138, 157, 165, 1);
+    border: 2px solid rgba(138, 157, 165, 1);
     border-radius: .5em;
     padding: 12px 0 24px 13px;
+    width: 93%;
   }
 
   .register legend {
     font-size: 1.2em;
     margin-bottom: 1em;
+    padding: 0em .3em;
   }
 
   .register label {
