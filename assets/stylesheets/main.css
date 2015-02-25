@@ -208,7 +208,7 @@
   }
 
   .separator {
-    border-left: 2px solid rgba(197, 54, 0, 1);
+    border-left: 4px solid rgba(197, 54, 0, 1);
   }
 
   .inter-spaces {
@@ -277,7 +277,7 @@
   */
 
   .label-text {
-    border-left: 2px solid rgba(197, 54, 0, 1);
+    border-left: 4px solid rgba(197, 54, 0, 1);
     height: 7em;
   }
 
