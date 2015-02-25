@@ -276,11 +276,6 @@
   ========================================
   */
 
-  .label-text {
-    border-left: 4px solid rgba(197, 54, 0, 1);
-    height: 7em;
-  }
-
   .email-set {
     margin-bottom: 1em;
   }
@@ -323,6 +318,16 @@
     outline: none;
     border: 1px solid rgba(138, 157, 165, 1);
   }
+
+  .label-text {
+    border-left: 4px solid rgba(197, 54, 0, 1);
+    height: 7em;
+  }
+
+  .label-text input {
+    text-align: center;
+  }
+
 
 /*
   ========================================
