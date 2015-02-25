@@ -287,14 +287,13 @@
 
 
   .email-set label {
-    margin-left: 3em;
-    margin-right: 1em;
     font-size: 1.1em;
     letter-spacing: 0.05em;
   }
 
   .email-set input {
-    width: 70%;
+    width: 90%;
+    margin-right: 9em;
     padding-left: 0.5em;
     height: 1.5em;
     font-size: .9em;
@@ -305,11 +304,10 @@
   }
 
   .user-set input {
-    margin-left: 8.9em;
     height: 1.5em;
     font-size: .9em;
     padding-left: 0.5em;
-    width: 70%;
+    width: 90%;
     color: #7f8c8d;
     border: none;
     border-bottom: 2px solid rgba(138, 157, 165, 1);
@@ -324,7 +322,6 @@
     -o-transition: all 0.30s ease-in-out;
     outline: none;
     border: 1px solid rgba(138, 157, 165, 1);
-    
   }
 
 /*
@@ -401,6 +398,7 @@ Third Section: help;
   .register input {
     width: 70%;
     margin-right: 9em;
+    padding-left: 0.5em;
     height: 1.5em;
     font-size: .9em;
     color: #7f8c8d;
