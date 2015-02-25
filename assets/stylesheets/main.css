@@ -291,7 +291,7 @@
     width: 70%;
     padding-left: 0.5em;
     height: 30px;
-    font-size: 1em;
+    font-size: .9em;
     color: #7f8c8d;
     border: none;
     border-bottom: 2px solid rgba(138, 157, 165, 1);
@@ -301,7 +301,7 @@
   .user-set input {
     margin-left: 8.7em;
     height: 30px;
-    font-size: 1em;
+    font-size: .9em;
     padding-left: 0.5em;
     width: 70%;
     color: #7f8c8d;
@@ -358,7 +358,7 @@
     outline: none;
     border: 1px solid rgba(250, 240, 205, 1);
     background-color: rgba(217, 136, 37, 1);
-    color: rgba(250, 240, 205, 1);
+    color: #7f8c8d;
     font-size: 1em;
     padding-left: 0.5em;
   }
@@ -369,8 +369,13 @@ Third Section: help;
 ========================================
 */
   .inter-fieldset {
-    margin-bottom: 1em;
-    margin-top:1.4em;
+    margin-top:2.4em;
+  }
+
+  .register {
+    border: 1px solid rgba(138, 157, 165, 1);
+    border-radius: .5em;
+    padding: 12px 0 24px 13px;
   }
 
   .register label {
@@ -379,11 +384,24 @@ Third Section: help;
   }
 
   .register input {
-    border-top: none;
-    border-left: none;
+    width: 70%;
+    padding-left: 0.5em;
+    height: 30px;
+    font-size: .9em;
+    color: #7f8c8d;
+    border: none;
+    border-bottom: 2px solid rgba(138, 157, 165, 1);
     background-color: rgba(250, 240, 205, 1);
-    border-bottom: 1px solid rgba(197, 54, 0, 1);
 
+  }
+
+  .register input:focus {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    border: 1px solid rgba(138, 157, 165, 1);
   }
 
 /*
