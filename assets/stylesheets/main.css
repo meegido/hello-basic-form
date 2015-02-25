@@ -359,6 +359,29 @@
 
 /*
 ========================================
+Third Section: help;
+========================================
+*/
+  .inter-fieldset {
+    margin-bottom: 1em;
+    margin-top:1.4em;
+  }
+
+  .register label {
+    display: block;
+    margin-bottom: .5em;
+  }
+
+  .register input {
+    border-top: none;
+    border-left: none;
+    background-color: rgba(250, 240, 205, 1);
+    border-bottom: 1px solid rgba(197, 54, 0, 1);
+
+  }
+
+/*
+========================================
 Footer
 ========================================
 */

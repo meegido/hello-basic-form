@@ -148,43 +148,47 @@
 		<section class="row group">
 			<div class="grid">
 
-			<!-- Left -->
+			<!-- Registro -->
 
 			<section class="col-2-3">
-				<fieldset>
 
-						<legend>Registro</legend>
-						
+				<fieldset class="register">
+
+						<legend class="inter-fieldset">Registro</legend>
+
+							<label>Nombre
+								<input type="text" name="username">
+							</label>
+
+							<label>Apellidos
+								<input type="text" name="userlastname">
+							</label>
+
+							<label>Fecha de nacimiento
+									<input type="date" name="date" optional>
+							</label>
+
+						<legend class="inter-fieldset">Datos del registro</legend>
+
 							<label>Email
 								<input type="email" name="email-address" placeholder="mail@placeholder.com" required>
 							</label>
 
-						<label>Password
-								<input type="text" name="password" required>
+							<label>Contraseña
+									<input type="text" name="password" required>
 							</label>
 
-						<input type="submit" name="submit">
-					</fieldset>
-
-					<fieldset>
-
-						<legend>Datos de registro</legend>
-
-							<label>Fecha de nacimiento
-								<input type="date" name="date" optional>
-							</label>
-
-							<label>Teléfono
-								<input type="tel" name="tel" required>
+							<label>Repite la contraseña
+									<input type="text" name="password" required>
 							</label>
 
 					</fieldset>
-
-				
 
 			</section><!--
 
-				--><section class="col-1-3">
+			Texto
+
+				--><section class="col-1-3 separator">
 
 					<p>Evitamos frustración y confusión usando mensajes con instrucciones o de error con un lenguaje sencillo y sin florituras.</p>
 
