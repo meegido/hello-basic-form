@@ -97,18 +97,18 @@
 
 						<p class="input-spaces">Este tipo de botón circular solo permite seleccionar una opción.<br>¿Cómo se llama este input type?</p>
 
-							<label><input type="radio" name="example-radio-button" value="radio" checked>radio</label>
-							<label><input type="radio" name="example-radio-button" value="radio-button">radio-button</label>
-							<label><input type="radio" name="example-radio-button" value="checkbox">checkbox</label>
+							<label for="radio"><input type="radio" name="radio" value="radio" checked>radio</label>
+							<label for="radio-button"><input type="radio" name="radio-button" value="radio-button">radio-button</label>
+							<label for="checkbox"><input type="radio" name="checkbox" value="checkbox">checkbox</label>
 
 					</fieldset>
 
 					<fieldset class="inter-spaces">
 
 						<p class="input-spaces">Sin embargo, este cuadrado permite seleccionar más de una opción.<br> ¿Cómo se llama este input type?<p>
-							<label><input type="checkbox" name="example-radio-button" value="checked" checked>check</label>
-							<label><input type="checkbox" name="example-radio-button" value="list-check">list-check</label>
-							<label><input type="checkbox" name="example-radio-button" value="checkbox">checkbox</label>
+							<label for="checked"><input type="checkbox" name="checked" value="checked" checked>check</label>
+							<label for="list-check"><input type="checkbox" name="list-check" value="list-check">list-check</label>
+							<label for="checkbox"><input type="checkbox" name="checkbox" value="checkbox">checkbox</label>
 
 					</fieldset>
 
@@ -159,15 +159,15 @@
 
 						<legend class="inter-fieldset legend">Registro</legend>
 
-							<label>Nombre*
-								<input type="text" name="username" required>
+							<label for="username-2">Nombre*
+								<input type="text" name="username-2" required>
 							</label>
 
-							<label>Apellidos
-								<input type="text" name="userlastname">
+							<label for="user-lastname">Apellidos
+								<input type="text" name="user-lastname">
 							</label>
 
-							<label class="label-shorter">Cumpleaños
+							<label for="date" class="label-shorter">Cumpleaños
 									<input type="date" name="date" optional>
 							</label>
 					</fieldset>
@@ -175,16 +175,16 @@
 
 						<legend class=" legend">Datos del registro</legend>
 
-							<label>Email*
+							<label for="email-adress">Email*
 								<input type="email" name="email-address" placeholder="mail@placeholder.com" required>
 							</label>
 
-							<label>Contraseña*
+							<label for="password">Contraseña*
 									<input type="text" name="password" required>
 							</label>
 
-							<label class="label-shorter">Repite la contraseña*
-									<input type="text" name="password" required>
+							<label for="password-repeat" class="label-shorter">Repite la contraseña*
+									<input type="text" name="password-repeat" required>
 							</label>
 
 							<input type="hidden" name="ip" value="">
