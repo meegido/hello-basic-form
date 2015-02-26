@@ -389,6 +389,27 @@
     padding-left: 0.5em;
   }
 
+  .choices input[type="submit"] {
+    width: 93%;
+    margin-top: 2em;
+    padding-bottom: .4em;
+    padding-top: .4em;
+    background-color: rgba(138, 157, 165, 1);
+    color: rgba(250, 240, 205, 1);
+    font-size: .9em;
+    letter-spacing: 2px;
+    border: none;
+  }
+
+  .choices input[type="submit"]:focus {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    border: 2px solid rgba(217, 136, 37, 1);
+  }
+
 /*
 ========================================
 Third Section: help;
@@ -440,6 +461,27 @@ Third Section: help;
     -o-transition: all 0.30s ease-in-out;
     outline: none;
     border: 1px solid rgba(138, 157, 165, 1);
+  }
+
+  .complete input[type="submit"] {
+    width: 93%;
+    margin-top: 2em;
+    padding-bottom: .4em;
+    padding-top: .4em;
+    background-color: rgba(138, 157, 165, 1);
+    color: rgba(250, 240, 205, 1);
+    font-size: .9em;
+    letter-spacing: 2px;
+    border: none;
+  }
+
+  .complete input[type="submit"]:focus {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    border: 2px solid rgba(217, 136, 37, 1);
   }
 
 /*
