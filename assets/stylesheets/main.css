@@ -319,6 +319,24 @@
     border: 1px solid rgba(138, 157, 165, 1);
   }
 
+  .user-set input[type="submit"] {
+    margin-top: 2em;
+    padding-bottom: 1.4em;
+    padding-top: .4em;
+    background-color: rgba(138, 157, 165, 1);
+    color: rgba(250, 240, 205, 1);
+    letter-spacing: 2px;
+  }
+
+  .user-set input[type="submit"]:focus {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    border: 2px solid rgba(217, 136, 37, 1);
+  }
+
   .label-text {
     border-left: 4px solid rgba(197, 54, 0, 1);
     height: 7em;
