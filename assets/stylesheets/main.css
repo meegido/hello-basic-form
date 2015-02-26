@@ -216,6 +216,10 @@
     border-left: 4px solid rgba(197, 54, 0, 1);
   }
 
+  .separator p {
+    margin-top: .3em;
+  }
+
   .inter-spaces {
     margin-bottom: 1.3em;
   }
@@ -345,7 +349,7 @@
   .label-text {
     border-left: 4px solid rgba(197, 54, 0, 1);
     height: 7em;
-    padding-top: .5em;
+    padding-top: .3em;
   }
 
   .label-text input {
