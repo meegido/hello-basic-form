@@ -49,20 +49,24 @@
 
 				<section class="col-2-3">
 
-					<fieldset class="email-set">
+					<form>
 
-						<label for="email" id="email-address">E-mail</label>
-						<input type="email" name="email-address" id="email">
+						<fieldset class="email-set">
 
-					</fieldset>
+							<label for="email" id="email-address">E-mail</label>
+							<input type="email" name="email-address" id="email">
 
-					<fieldset class="user-set">
+						</fieldset>
 
-						<label for="no-label">Sin label</label>
-						<input type="text" name="no-label" id="no-label">
-						<input type="submit" value="ENVIAR">
+						<fieldset class="user-set">
 
-					</fieldset>
+							<label for="no-label">Sin label</label>
+							<input type="text" name="no-label" id="no-label">
+							<input type="submit" value="ENVIAR">
+
+						</fieldset>
+
+					</form>
 
 				</section><!--
 
@@ -93,36 +97,43 @@
 			<!-- Left -->
 
 				<div class="col-2-3">
-					<fieldset class="inter-spaces">
 
-						<p class="input-spaces">Este tipo de botón circular solo permite seleccionar una opción.<br>¿Cómo se llama este input type?</p>
+					<form>
 
-							<label for="radio"><input type="radio" name="radio" value="radio" id="radio" checked>radio</label>
-							<label for="radio-button"><input type="radio" name="radio-button" value="radio-button" id="radio-button">radio-button</label>
-							<label for="checkbox-radio"><input type="radio" name="checkbox" value="checkbox" id="checkbox-radio">checkbox</label>
+						<fieldset class="inter-spaces">
 
-					</fieldset>
+							<p class="input-spaces">Este tipo de botón circular solo permite seleccionar una opción.<br>¿Cómo se llama este input type?</p>
 
-					<fieldset class="inter-spaces">
+								<label for="radio"><input type="radio" name="radio" value="radio" id="radio" checked>radio</label>
+								<label for="radio-button"><input type="radio" name="radio-button" value="radio-button" id="radio-button">radio-button</label>
+								<label for="checkbox-radio"><input type="radio" name="checkbox" value="checkbox" id="checkbox-radio">checkbox</label>
 
-						<p class="input-spaces">Sin embargo, este cuadrado permite seleccionar más de una opción.<br> ¿Cómo se llama este input type?<p>
-							<label for="check"><input type="checkbox" name="check" value="check" checked>check</label>
-							<label for="list-check"><input type="checkbox" name="list-check" value="list-check">list-check</label>
-							<label for="checkbox-checkbox"><input type="checkbox" name="checkbox" value="checkbox-checkbox">checkbox</label>
+						</fieldset>
 
-					</fieldset>
+						<fieldset class="inter-spaces">
 
-					<fieldset class="inter-spaces">
+							<p class="input-spaces">Sin embargo, este cuadrado permite seleccionar más de una opción.<br> ¿Cómo se llama este input type?<p>
+								<label for="check"><input type="checkbox" name="check" value="check" checked>check</label>
+								<label for="list-check"><input type="checkbox" name="list-check" value="list-check">list-check</label>
+								<label for="checkbox-checkbox"><input type="checkbox" name="checkbox" value="checkbox-checkbox">checkbox</label>
 
-						<p class="input-spaces">Y con este seleccionamos entre un listado la opción que deseamos.<br> La selección puede ser múltiple pero en este caso no lo es.<br>Si quisiéramos que fuera múltiple, ¿qué escribiríamos en input?<br></p>
+						</fieldset>
 
-						<select>
-							<option value="multiple" selected>multiple</option>
-							<option value="all">all</option>
-							<option value="select-more">select more</option>
-						</select>
+						<fieldset class="inter-spaces">
 
-					</fieldset>
+							<p class="input-spaces">Y con este seleccionamos entre un listado la opción que deseamos.<br> La selección puede ser múltiple pero en este caso no lo es.<br>Si quisiéramos que fuera múltiple, ¿qué escribiríamos en input?<br></p>
+
+							<select>
+								<option value="multiple" selected>multiple</option>
+								<option value="all">all</option>
+								<option value="select-more">select more</option>
+							</select>
+
+						</fieldset>
+
+						<input type="submit" value="ENVIAR">
+
+					</form>
 
 				</div><!--
 
@@ -155,41 +166,48 @@
 
 			<section class="col-2-3">
 
-				<fieldset class="register">
+				<form>
 
-						<legend class="inter-fieldset legend">Registro</legend>
+					<fieldset class="register">
 
-							<label for="username-register">Nombre*
-								<input type="text" name="username-register" id="username-register" required>
-							</label>
+							<legend class="inter-fieldset legend">Registro</legend>
 
-							<label for="user-lastname">Apellidos
-								<input type="text" name="user-lastname" id="user-lastname">
-							</label>
+								<label for="username-register">Nombre*
+									<input type="text" name="username-register" id="username-register" required>
+								</label>
 
-							<label for="date" class="label-shorter">Cumpleaños
-									<input type="date" name="date" id="date" optional>
-							</label>
-					</fieldset>
-					<fieldset class="inter-fieldset register">
+								<label for="user-lastname">Apellidos
+									<input type="text" name="user-lastname" id="user-lastname">
+								</label>
 
-						<legend class=" legend">Datos del registro</legend>
+								<label for="date" class="label-shorter">Cumpleaños
+										<input type="date" name="date" id="date" optional>
+								</label>
+						</fieldset>
 
-							<label for="email-adress">Email*
-								<input type="email" name="email-address" placeholder="mail@placeholder.com" id="email-adress" required>
-							</label>
+						<fieldset class="inter-fieldset register">
 
-							<label for="password">Contraseña*
-									<input type="text" name="password" id="password" required>
-							</label>
+							<legend class=" legend">Datos del registro</legend>
 
-							<label for="password-repeat" class="label-shorter">Repite la contraseña*
-									<input type="text" name="password-repeat" id="password-repeat" required>
-							</label>
+								<label for="email-adress">Email*
+									<input type="email" name="email-address" placeholder="mail@placeholder.com" id="email-adress" required>
+								</label>
 
-							<input type="hidden" name="ip" value="">
+								<label for="password">Contraseña*
+										<input type="text" name="password" id="password" required>
+								</label>
 
-					</fieldset>
+								<label for="password-repeat" class="label-shorter">Repite la contraseña*
+										<input type="text" name="password-repeat" id="password-repeat" required>
+								</label>
+
+								<input type="hidden" name="ip" value="kkkkk">
+
+						</fieldset>
+
+						<input type="submit" value="submit">
+						
+					</form>
 
 			</section><!--
 
