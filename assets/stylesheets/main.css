@@ -492,5 +492,16 @@ Footer
 
 .footer {
   
-  width: 100%;
+  background: rgba(138, 157, 165, 1);
+  color: rgba(250, 240, 205, 1);
+  letter-spacing: .04em;
+  font-size: .95em;
+  line-height: 1.4em;
+}
+
+footer p {
+  margin-bottom: 8px;
+}
+.map {
+
 }
