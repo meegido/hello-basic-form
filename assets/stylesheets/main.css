@@ -77,6 +77,10 @@
     width: 7%;
     padding-top: 1em;
   }
+
+  p {
+    line-height: 1.4em;
+  }
 /*
   ========================================
   Grid
@@ -275,7 +279,7 @@
     color: rgba(217, 136, 37, 1);
     float: right;
     width: 85%;
-    padding-top: 0.6em;
+    padding-top: 0.2em;
     font-size: 1.5em;
   }
 
