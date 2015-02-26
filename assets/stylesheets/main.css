@@ -345,6 +345,7 @@
   .label-text {
     border-left: 4px solid rgba(197, 54, 0, 1);
     height: 7em;
+    padding-top: .5em;
   }
 
   .label-text input {
