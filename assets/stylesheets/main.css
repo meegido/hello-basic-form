@@ -1,0 +1,498 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   */
+
+   html, body, div, span, applet, object, iframe,
+   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+   a, abbr, acronym, address, big, cite, code,
+   del, dfn, em, img, ins, kbd, q, s, samp,
+   small, strike, strong, sub, sup, tt, var,
+   b, u, i, center,
+   dl, dt, dd, ol, ul, li,
+   fieldset, form, legend, label,
+   table, caption, tbody, tfoot, thead, tr, th, td,
+   article, aside, canvas, details, embed, textarea,
+   figure, figcaption, footer, header, hgroup, 
+   menu, nav, output, ruby, section, summary,
+   time, mark, audio, video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+   }
+   /* HTML5 display-role reset for older browsers */
+   article, aside, details, figcaption, figure, 
+   footer, header, hgroup, menu, nav, section {
+     display: block;
+   }
+   body {
+     line-height: 1;
+   }
+   ol, ul {
+     list-style: none;
+   }
+   blockquote, q {
+     quotes: none;
+   }
+   blockquote:before, blockquote:after,
+   q:before, q:after {
+     content: '';
+     content: none;
+   }
+   table {
+     border-collapse: collapse;
+     border-spacing: 0;
+   }
+
+
+/*
+  ========================================
+  Custom styles
+  ========================================
+  */
+  body {
+    background: rgba(250, 240, 205, 1);
+    color: #2c3e50;
+    font: 300 18px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0 50px 0 50px;
+  }
+
+ a {
+    color: #c0392b;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #d35400;
+  }
+
+  a:visited {
+    color: #d35400;
+  }
+
+  img {
+    width: 7%;
+    padding-top: 1em;
+  }
+
+  p {
+    line-height: 1.4em;
+  }
+/*
+  ========================================
+  Grid
+  ========================================
+  */
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .container,
+  .grid {
+    margin: 0 auto;
+    width: 1050px;
+  }
+
+  .col-1-3 {
+    width: 33.33%;
+  }
+
+  .col-2-3 {
+    width: 66.66%;
+  }
+
+  .col-1-3,
+  .col-2-3 {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .grid,
+  .col-1-3,
+  .col-2-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+  */
+  .group:before,
+  .group:after {
+    content: "";
+    display: table;
+  }
+  .group:after {
+    clear: both;
+  }
+  .group {
+    clear: both;
+    *zoom: 1;
+  }
+
+/*
+  ========================================
+  Rows
+  ========================================
+  */
+
+  .row {
+    background: rgba(250, 240, 205, 1);
+    min-width: 1050px;
+    padding: 33px 0 22px 0;
+    background: rgba(250, 240, 205, 1);
+  }
+
+/*
+  ========================================
+  Typography
+  ========================================
+  */
+
+  h1, h3, h4, h5, p {
+    margin-bottom: 22px;
+
+  }
+
+  h1 {
+    line-height: 44px;
+    color: rgba(138, 157, 180, 1);
+    font: 400 34px/22px "Lora", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+  h2 {
+    font-size: 24px;
+    line-height: 44px;
+  }
+
+  h3 {
+    font-size: 21px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h5 {
+    color: #a9b2b9;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  strong {
+    font-weight: 400;
+  }
+
+  cite, em {
+    font-style: italic;
+  }
+
+/*
+  ========================================
+  Helpers
+  ========================================
+  */
+
+  .divider {
+    clear: both;
+    margin-bottom: 1em;
+    border-top: 10px solid rgba(217, 136, 37, 1);
+    width: 100%;
+  }
+
+  .divider-short {
+    border-top: 10px solid rgba(217, 136, 37, 1);
+    width: 64%;
+    margin-right: 12em;
+  }
+
+  .separator {
+    border-left: 4px solid rgba(197, 54, 0, 1);
+  }
+
+  .separator p {
+    margin-top: .3em;
+  }
+
+  .inter-spaces {
+    margin-bottom: 1em;
+  }
+
+/*
+  ========================================
+  Primary header
+  ========================================
+  */
+
+  .logo {
+    font-size: 4em;
+    line-height: 1em;
+    display: inline-block;
+    float:left;
+    width: 30%;
+    padding-top: 0.356em;
+    padding-left: 2.3em;
+    color: rgba(197, 54, 0, 1);
+
+  }
+
+  .entry-header {
+    width: 60%;
+    float: right;
+    padding-top: 0.8em;
+    padding-right: 10em;
+    font-size: 1.1em;
+    line-height: 1.4em;
+  }
+
+/*
+  ========================================
+  Block-title
+  ========================================
+  */
+
+  .block-title {
+    display: inline;
+
+  }
+
+  .section-title {
+    line-height: 1.35em;
+    float: left;
+    width: 15%;
+    padding-left: .5em;
+    margin: 0em;
+    color: rgba(217, 136, 37, 1);
+  }
+
+  .section-subtitle {
+    color: rgba(217, 136, 37, 1);
+    float: right;
+    width: 85%;
+    padding-top: 0.2em;
+    font-size: 1.5em;
+  }
+
+/*
+  ========================================
+  First section: labels;
+  ========================================
+  */
+
+  .email-set {
+    margin-bottom: 1em;
+  }
+
+
+  .email-set label {
+    font-size: 1.1em;
+    letter-spacing: 0.05em;
+  }
+
+  .email-set input {
+    width: 90%;
+    margin-right: 9em;
+    padding-left: 0.5em;
+    height: 1.5em;
+    font-size: .9em;
+    color: #7f8c8d;
+    border: none;
+    border-bottom: 2px solid rgba(138, 157, 165, 1);
+    background-color: rgba(250, 240, 205, 1);
+  }
+
+  .user-set input {
+    height: 1.5em;
+    font-size: .9em;
+    padding-left: 0.5em;
+    width: 90%;
+    color: #7f8c8d;
+    border: none;
+    border-bottom: 2px solid rgba(138, 157, 165, 1);
+    background-color: rgba(250, 240, 205, 1);
+  }
+
+  .user-set input[type=username]:focus,
+  .email-set input[type=email]:focus {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    border: 1px solid rgba(138, 157, 165, 1);
+  }
+
+  .user-set input[type=submit] {
+    margin-top: 2em;
+    padding-bottom: 1.4em;
+    padding-top: .4em;
+    background-color: rgba(138, 157, 165, 1);
+    color: rgba(250, 240, 205, 1);
+    letter-spacing: 2px;
+  }
+
+  .user-set input[type=submit]:focus {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    border: 2px solid rgba(217, 136, 37, 1);
+  }
+
+  .label-text {
+    border-left: 4px solid rgba(197, 54, 0, 1);
+    height: 7em;
+    padding-top: .3em;
+  }
+
+  .label-text input {
+    text-align: center;
+  }
+
+
+/*
+  ========================================
+  Second section: inputs;
+  ========================================
+  */
+
+  .input-spaces {
+    margin-bottom: .5em;
+  }
+
+  .input label{
+    margin-bottom: 1em;
+    display: inline-block;
+  }
+
+  label {
+    display: inline-block;
+    padding-bottom: .3em;
+    cursor: pointer;
+  }
+
+  .choices input[type=submit] {
+    width: 93%;
+    margin-top: 2em;
+    padding-bottom: .4em;
+    padding-top: .4em;
+    background-color: rgba(138, 157, 165, 1);
+    color: rgba(250, 240, 205, 1);
+    font-size: .9em;
+    letter-spacing: 2px;
+    border: none;
+  }
+
+  .choices input[type=submit]:focus {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    border: 2px solid rgba(217, 136, 37, 1);
+  }
+
+
+
+/*
+========================================
+Third Section: help;
+========================================
+*/
+  .inter-fieldset {
+    margin-top:2.4em;
+  }
+
+  .register {
+    border: 2px solid rgba(138, 157, 165, 1);
+    border-radius: .5em;
+    padding: 12px 0 24px 13px;
+    width: 93%;
+  }
+
+  .register legend {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    padding: 0em .3em;
+  }
+
+  .register label {
+    display: block;
+    margin-bottom: 1.8em;
+  }
+
+  .label-shorter {
+    width: 86%;
+  }
+
+  .register input {
+    width: 70%;
+    margin-right: 9em;
+    padding-left: 0.5em;
+    height: 1.5em;
+    font-size: .9em;
+    color: #7f8c8d;
+    border: none;
+    border-bottom: 2px solid rgba(138, 157, 165, 1);
+    background-color: rgba(250, 240, 205, 1);
+
+  }
+
+  .register input:focus {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    border: 1px solid rgba(138, 157, 165, 1);
+  }
+
+  .complete input[type="submit"] {
+    width: 93%;
+    margin-top: 2em;
+    padding-bottom: .4em;
+    padding-top: .4em;
+    background-color: rgba(138, 157, 165, 1);
+    color: rgba(250, 240, 205, 1);
+    font-size: .9em;
+    letter-spacing: 2px;
+    border: none;
+  }
+
+  .complete input[type="submit"]:focus {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    border: 2px solid rgba(217, 136, 37, 1);
+  }
+
+/*
+========================================
+Footer
+========================================
+*/
+
+.footer {
+  letter-spacing: .04em;
+  font-size: .95em;
+  line-height: 1.4em;
+  padding-bottom: 1.5em;
+}
+
+.footer p {
+  margin-bottom: 8px;
+}
+
